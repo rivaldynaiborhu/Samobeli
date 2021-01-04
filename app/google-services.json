@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "58928713353",
+    "project_id": "samobeli",
+    "storage_bucket": "samobeli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58928713353:android:75a1698257086445148058",
+        "android_client_info": {
+          "package_name": "com.example.samobeli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58928713353-e73amv260le44kd8th6ps2prbug2f9c9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samobeli",
+            "certificate_hash": "93b548eb63e1b17e209e3c1c2aee6e73cdca3915"
+          }
+        },
+        {
+          "client_id": "58928713353-dmulelr7qd19i3n9nkcsobitqpbkrmum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzEPppNvgK2ZNG_dldCF1a2Y4lXK-lEso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58928713353-dmulelr7qd19i3n9nkcsobitqpbkrmum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
