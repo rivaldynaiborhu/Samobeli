@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class SplashScreenActivity extends AppCompatActivity {
-    private static int LIMIT=2000;
+    private static int LIMIT=1300;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
