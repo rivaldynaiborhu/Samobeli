@@ -1,41 +1,50 @@
 package com.example.samobeli.Model;
 
 public class User {
-    private String Name;
-    private String PhoneNumber;
-    private String Password;
-
+    public String fullName;
+    public String email;
+    public String password;
+    public String phoneNumber;
 
     public User() {
     }
 
-    public User(String name, String Phone, String password) {
-        Name = name;
-        PhoneNumber = Phone;
-        Password = password;
+    public User(String fullName, String email, String phoneNumber, String password) {
+        this.fullName = fullName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.password = password;
     }
 
-    public String getName() {
-        return Name;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setName(String name) {
-        Name = name;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
-    public String getPhoneNumber() {
-        return PhoneNumber;
+    public String getEmail() {
+        return email;
     }
 
-    public void setPhoneNumber(String Phone) {
-        PhoneNumber = Phone;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }
